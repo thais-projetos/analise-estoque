@@ -39,6 +39,10 @@ plt.title('Estoque vs Vendas por Produto')
 plt.ylabel('Quantidade')
 plt.legend()
 plt.show()
+plt.savefig("estoque_baixo.png")  
+
+
+
 
 # Recomendações simples
 print("\nRecomendações:")
